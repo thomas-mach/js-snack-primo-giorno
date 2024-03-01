@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.typewriter{
+    overflow: hidden;
+    display: inline-block;
+    color: #F0DB4F;
+    opacity: 0;
+    animation: type 200ms forwards;
+} 
+
+@keyframes type {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+
+.biger{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: big 1s ease-in-out;
+    animation-delay: 2s;
+}
+
+@keyframes big {
+    0%{
+       opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+div :nth-of-type(1) {
+    animation-delay: 100ms;
+   
+}
+
+div :nth-of-type(2) {
+    animation-delay: 200ms;
+    
+}
+
+div :nth-of-type(3) {
+    animation-delay: 300ms;
+    
+}
+
+div :nth-of-type(4) {
+    animation-delay: 400ms;
+   
+}
+
+div :nth-of-type(5) {
+    animation-delay: 500ms;
+    
+}
+
+div :nth-of-type(6) {
+    animation-delay: 600ms;
+    
+}
+
+div :nth-of-type(7) {
+    animation-delay: 800ms;
+    
+}
+
+div :nth-of-type(8) {
+    animation-delay: 900ms;
+   
+}
+
+div :nth-of-type(9) {
+    animation-delay: 1s;
+    
+}
+
+div :nth-of-type(10) {
+    animation-delay: 1.1s;
+   
+}
